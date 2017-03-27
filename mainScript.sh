@@ -1,5 +1,5 @@
 
-#Defining Varialbles
+#Defining Variables
 inputFileName=demonetization-tweets.csv
 inputFileDir=/TwitterCsvData
 afinnLibDir=/Dictionary
