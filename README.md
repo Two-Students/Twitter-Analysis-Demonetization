@@ -93,5 +93,5 @@ Visualizing Our Output
     
     We have provided a screenshot of how we visualized our OUTPUT in output.csv
 
-                                                   ---X--X--X--X---
+                                               ---X--X--X--X---
 
