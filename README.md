@@ -84,7 +84,8 @@ Conversion of Flume Data from Avro to CSV format and its Analyzation using Pig
     We will rate the word as per its meaning from +5 to -5 using the dictionary AFINN. The AFINN is a dictionary 
     which  consists of 2500 words which are rated from +5 to -5 depending on their meaning.
 
-#Visualizing Our Output
+Visualizing Our Output
+===================
     
     After running mainScript.sh , output.csv file will be generated in your directory.
     
