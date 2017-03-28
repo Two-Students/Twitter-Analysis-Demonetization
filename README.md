@@ -43,8 +43,6 @@ Copy `flume-sources-1.0-SNAPSHOT.jar` to `/usr/lib/flume-ng/plugins.d/twitter-st
     $ hadoop fs -mkdir <destination>
     $ hadoop fs -chown -R flume:flume <destination>
     $ hadoop fs -chmod -R 770 <destination>
-    $ sudo /etc/init.d/flume-ng-agent start
-    OR
     $ $FLUME_HOME/bin/flume-ng agent --conf $FLUME_HOME/conf/ -f $FLUME_HOME/conf/twitter.conf  Dflume.root.logger=DEBUG,console -n TwitterAgent
     
   
@@ -78,7 +76,8 @@ Conversion of Flume Data from Avro to CSV format and its Analyzation using Pig
     
     Replace the file name of demonetization-tweets.csv in mainScript.sh with your .csv file formed in above step.
     
-    Run mainScript.sh as -----
+    Run mainScript.sh as :
+    
     $ sh mainScript.sh
     
     We will rate the word as per its meaning from +5 to -5 using the dictionary AFINN. The AFINN is a dictionary 
