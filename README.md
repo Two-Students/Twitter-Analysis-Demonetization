@@ -85,6 +85,8 @@ Conversion of Flume Data from Avro to CSV format and its Analyzation using Pig
 
 Visualizing Our Output
 ===================
+
+![alt text](https://github.com/Two-Students/Twitter-Analysis-Demonetization/blob/master/Project.JPG "Analysis")
     
     After running mainScript.sh , output.csv file will be generated in your directory.
     
